@@ -1,0 +1,55 @@
+# ev-road-trip-guide
+
+Agent skill：把「纯电长途自驾 + 车中泊 + 秋景」做成可部署的图文路书。
+
+适用于 MiMo Desktop / Claude Code 等支持 `SKILL.md` 的 Agent。
+
+## 安装
+
+```bash
+# 通用：放到 skills 目录
+# MiMo Desktop 全局
+cp -r ev-road-trip-guide ~/.config/mimocode/skills/
+
+# Claude Code
+cp -r ev-road-trip-guide ~/.claude/skills/
+```
+
+或：
+
+```bash
+npx skills add <your-github-user>/ev-road-trip-guide
+```
+
+## 能做什么
+
+- 按「三天到达不赶」排去程 / 核心 / 返程  
+- 约每 300km 充电点（高速口/县城）  
+- OSRM **真实驾车路网**绘图（非直线）  
+- 逐点嵌天气、美食（可跳点评）  
+- 景点独立真实配图（禁止复用、禁错图）  
+- 左侧固定日期竖条 UI + 可部署单文件 HTML  
+
+## 触发示例
+
+- 「做个纯电路书」  
+- 「绍兴到海拉尔自驾攻略，睡车，充电」  
+- 「行程地图 / trip map / road trip guide」  
+
+## 目录
+
+```
+ev-road-trip-guide/
+├── SKILL.md
+├── locales/
+├── references/
+│   ├── ui-spec.md
+│   ├── charging-car-sleep.md
+│   └── itinerary-method.md
+└── scripts/
+    └── build_single_file.py
+```
+
+## License
+
+MIT
