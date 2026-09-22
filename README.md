@@ -1,6 +1,6 @@
 # ev-road-trip-guide
 
-Agent skill：把「纯电长途自驾 + 车中泊 + 秋景」做成可部署的图文路书。
+Agent skill：把「纯电长途自驾 + 车中泊」做成可部署的图文路书，适用于全季节。
 
 适用于 MiMo Desktop / Claude Code 等支持 `SKILL.md` 的 Agent。
 
