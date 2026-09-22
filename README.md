@@ -1,4 +1,4 @@
-# road-trip-guide-skill
+# 自驾路书攻略 Skill / Road Trip Guide Skill
 
 Agent skill：把「纯电长途自驾 + 车中泊」做成可部署的图文路书，适用于全季节。
 
