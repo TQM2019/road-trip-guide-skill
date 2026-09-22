@@ -23,7 +23,7 @@ npx skills add <your-github-user>/ev-road-trip-guide
 
 ## 能做什么
 
-- 按「三天到达不赶」排去程 / 核心 / 返程  
+- 灵活排期：去程 / 核心 / 返程三段式
 - 约每 300km 充电点（高速口/县城）  
 - OSRM **真实驾车路网**绘图（非直线）  
 - 逐点嵌天气、美食（可跳点评）  
@@ -33,7 +33,7 @@ npx skills add <your-github-user>/ev-road-trip-guide
 ## 触发示例
 
 - 「做个纯电路书」  
-- 「绍兴到海拉尔自驾攻略，睡车，充电」  
+- 「xx到xx自驾攻略，睡车，充电」
 - 「行程地图 / trip map / road trip guide」  
 
 ## 目录
