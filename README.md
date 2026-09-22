@@ -91,6 +91,10 @@ Agent 将自动生成：
 ```
 road-trip-guide-skill/
 ├── SKILL.md                  # Agent 技能主文件
+├── README.md                 # 本文件
+├── LICENSE                   # MIT License
+├── assets/
+│   └── template.html         # 地图模板（内嵌 Leaflet，~178KB）
 ├── locales/                  # 多语言支持
 │   ├── en-US.json
 │   └── zh-CN.json
