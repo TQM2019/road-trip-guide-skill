@@ -58,7 +58,7 @@ git clone https://github.com/TQM2019/road-trip-guide-skill.git
 
 ### 基础用法
 
-> **「绍兴到海拉尔自驾攻略，睡车，充电」**
+> **「XX到XX自驾攻略，睡车，充电」**
 
 Agent 将自动生成：
 - D1–D3 去程（日均 600–950km，不赶路）
