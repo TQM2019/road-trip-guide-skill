@@ -79,7 +79,7 @@ description: |
 2. 再打包 `index.html` 单文件部署（Netlify Drop / GitHub Pages / Gofile 等）  
 3. 语法检查：抽出最长 `<script>` 做 `node --check`
 
-## Output data shape
+## Template\n\n使用 `assets/template.html` 作为基础模板。该模板已内嵌 Leaflet JS+CSS（无 CDN 依赖），支持高德/OSM/CARTO 三套底图切换。\n\n**数据填充**：将 DAYS、DAY_ROUTES、DAY_WEATHER 四个数据结构填入模板对应位置即可。\n\n```bash\n# 复制模板\ncp assets/template.html index.html\n# 然后替换其中的数据部分\n```\n\n## Output data shape
 
 ```js
 const DAYS = [{ id, label, date, title, color, locations: [{
