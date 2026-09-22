@@ -1,5 +1,5 @@
 ---
-name: ev-road-trip-guide
+name: road-trip-guide-skill
 description: |
   Build a shareable China long-distance pure-EV road-trip guide (路书) with
   day-by-day itinerary, ~300km charging stops near highway exits, car-sleeping
@@ -11,7 +11,7 @@ description: |
   blog writing.
 ---
 
-# EV Road Trip Guide（纯电路书）
+# EV Road Trip Guide（自驾路书攻略）
 
 生成可部署、可手机打开的**单文件图文路书**：左侧固定日期条 + 真实路网地图 + 逐日行程（天气/美食融在点位里）+ 独立景点图。
 

@@ -1,4 +1,4 @@
-# ev-road-trip-guide
+# road-trip-guide-skill
 
 Agent skill：把「纯电长途自驾 + 车中泊」做成可部署的图文路书，适用于全季节。
 
@@ -9,16 +9,16 @@ Agent skill：把「纯电长途自驾 + 车中泊」做成可部署的图文路
 ```bash
 # 通用：放到 skills 目录
 # MiMo Desktop 全局
-cp -r ev-road-trip-guide ~/.config/mimocode/skills/
+cp -r road-trip-guide-skill ~/.config/mimocode/skills/
 
 # Claude Code
-cp -r ev-road-trip-guide ~/.claude/skills/
+cp -r road-trip-guide-skill ~/.claude/skills/
 ```
 
 或：
 
 ```bash
-npx skills add <your-github-user>/ev-road-trip-guide
+npx skills add <your-github-user>/road-trip-guide-skill
 ```
 
 ## 能做什么
@@ -39,7 +39,7 @@ npx skills add <your-github-user>/ev-road-trip-guide
 ## 目录
 
 ```
-ev-road-trip-guide/
+road-trip-guide-skill/
 ├── SKILL.md
 ├── locales/
 ├── references/
